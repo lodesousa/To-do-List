@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" type="image/png" href="pics/favicon.png" />
+    <script
+      src="https://kit.fontawesome.com/29efef8226.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Prompt:wght@200;400&display=swap');
+    </style>
+    <title>To-do list</title>
+  </head>
+
+  <body class="body">
+    <div class="container-main">
+    <div class="container-date">
+      <header>
+        <div class="part1">
+          <h1 class="day">Tuesday, 05th</h1>
+          <h3 class="month">January</h3>
+          
+          <div class="wrapper">
+            <div class="column-1">
+              <p class="num-column-1" id="todo-total">0</p>
+              <p class="name-column-1">Total</p>
+            </div>
+            <!--<div class="column-2">
+              <p class="num-column-1" id="todo-remaining">0</p>
+              <p class="name-column-1">Remaining</p>
+            </div> -->
+            <div class="column-3">
+              <p class="num-column-1" id="todo-done">0</p>
+              <p class="name-column-1">Done</p>
+            </div>
+          </div>
+
+
+      </header>
+    </div>
+    <main>
+      <div class="tasks">
+        <p class="tasks-title">Today's tasks</p>
+
+        <input type="text" id="myInput" placeholder="Things to be done..." />
+
+        <ul id="myUL"></ul>
+        <button class="button" id="add-button" type="button">Add new item</button>
+      </div>
+    </main>
+  </div>
+    <script src="script.js"></script>
+  </body>
+</html>
