@@ -28,6 +28,7 @@ https://medium.com/clarusway/making-a-todo-list-with-html-css-and-javascript-154
 
 ## Project link:
 
+https://lodesousa.github.io/To-do-List/
 
  
 
